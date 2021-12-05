@@ -1,19 +1,24 @@
 .card {
     position: relative;
-    width: 600px;
+    width: 700px;
     padding: 20px;
-    max-width: 60vw;
+    max-width: 70vw;
     height: 50vh;
     border-radius: 20px;
     background-size: cover;
     background-position: center;
-    box-shadow: 8px 18px 53px 8px rgba(0, 0, 0, 0.3);
+    box-shadow: 8px 1px 13px 8px rgba(0, 0, 0, 0.3);
 }
 
 .card h3 {
     position: absolute;
     top: 20px;
     color: #FFFFFF;
+}
+
+.card .tags {
+    position: absolute;
+    top: 50px;
 }
 
 .card .description {
@@ -26,6 +31,7 @@
 .card .contact {
     position: absolute;
     bottom: 10px;
+    word-wrap: break-word;
     color: #FFFFFF;
 }
 

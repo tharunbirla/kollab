@@ -1,6 +1,8 @@
 import './App.css';
 import Header from './Header';
 import Cards from './Cards'
+import Chats from './Chats'
+import SwipeButtons from './SwipeButtons';
 import React from "react";
 import {
   BrowserRouter as Router,
@@ -12,14 +14,17 @@ import {
 function App() {
   return (
     <div className="App">
-      <Header/>
       <Router>
+      {/* <Header/> */}
         <Switch>
           <Route path="/chat">
-            <h1>Im chat page</h1>
+            <Header buttonBack="/"/>
+            <Chats/>
           </Route>
           <Route path="/">
+            <Header/>
             <Cards/>
+            <SwipeButtons/>
           </Route>
         </Switch>
       </Router>
@@ -34,6 +39,7 @@ function App() {
 
 // {/* {Header} */}
 // {/* {Post card} */}
+// {/* {audio player inside cards} */}
 // {/* {Buttons at the bottom} */}
 
 // {/* {chat screen} */}

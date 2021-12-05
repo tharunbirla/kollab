@@ -38,7 +38,7 @@ You will also see any lint errors in the console.
 
 ## Todo
 
-[ ] To add login page
-[ ] To add profile screen
-[x] To add feed screen
-[ ] To add chat screen 
+- [ ] To add login page
+- [ ] To add profile screen
+- [x] To add feed screen
+- [x] To add chat screen 

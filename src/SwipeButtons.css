@@ -1,0 +1,71 @@
+.swipeButtons {
+    position: fixed;
+    bottom: 5vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    text-align: center;
+}
+
+button {
+    border: none;
+    background: transparent;
+    padding: 10px 10px;
+    box-shadow: 0px 10px 53px 0px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    border-radius: 50%;
+    text-decoration: none;
+    display: inline-block;
+    -moz-background-size: 250% 250%, 100% 100%;
+    background-size: 250% 250%, 100% 100%;
+    -webkit-transition: background-position 0s ease;
+    -moz-transition: background-position 0s ease;       
+    -o-transition: background-position 0s ease;
+    transition: background-position 0s ease;
+}
+
+button:focus, button:hover {
+    background-position: 0 0, 0 0;
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    background: white;
+}
+
+.swipeButtons_close {
+    padding: 1vw;
+    color: #ff6347;
+}
+
+.swipeButtons_down {
+    padding: 1vw;
+    color: white;
+}
+
+.swipeButtons_play {
+    padding: 1vw;
+    color: #00A9D8;
+}
+
+.swipeButtons_up {
+    padding: 1vw;
+    color: white;
+}
+
+.swipeButtons_done {
+    padding: 1vw;
+    color: #adff2f;
+}
+
+.playBtn {
+    background: white;
+}
+
+.swipeButtons_up:hover, .swipeButtons_up:focus{
+    color: #00A9D8;
+}
+
+.swipeButtons_down:hover, .swipeButtons_down:focus{
+    color: #00A9D8;
+}
