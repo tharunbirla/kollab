@@ -2,6 +2,7 @@ import './App.css';
 import Header from './Header';
 import Cards from './Cards'
 import Chats from './Chats'
+import Profile from './Profile'
 import SwipeButtons from './SwipeButtons';
 import React from "react";
 import {
@@ -16,10 +17,14 @@ function App() {
     <div className="App">
       <Router>
       {/* <Header/> */}
-        <Switch>
+        <Switch>  
           <Route path="/chat">
             <Header buttonBack="/"/>
             <Chats/>
+          </Route>
+          <Route path="/profile">
+            <Header profileBack="/"/>
+            <Profile/>
           </Route>
           <Route path="/">
             <Header/>

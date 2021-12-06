@@ -1,9 +1,6 @@
 # Kollab for artists 🎵
 
 ![license](https://img.shields.io/github/license/tharunbirla/kollab)
-
-![checks](https://img.shields.io/github/checks-status/tharunbirla/kollab/main)
-
 ![commit](https://img.shields.io/github/last-commit/tharunbirla/kollab)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -39,6 +36,8 @@ You will also see any lint errors in the console.
 ## Todo
 
 - [ ] To add login page
-- [ ] To add profile screen
-- [x] To add feed screen
+- [ ] To add music player in cards
+- [ ] To add individual chat screen
+- [x] To add profile screen
+- [x] To add cards screen
 - [x] To add chat screen 

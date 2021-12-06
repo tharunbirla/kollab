@@ -7,7 +7,7 @@
     border-radius: 20px;
     background-size: cover;
     background-position: center;
-    box-shadow: 8px 1px 13px 8px rgba(0, 0, 0, 0.3);
+    box-shadow: 8px 8px 8px 1px rgba(0, 0, 0, 0.3);
 }
 
 .card h3 {

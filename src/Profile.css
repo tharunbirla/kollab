@@ -1,0 +1,48 @@
+.settings {
+    padding: 10vw;
+}
+
+.settings h1 {
+    color: gray;
+    margin-bottom: 1%;
+}
+
+.settings_container {
+    background-color: rgba(211, 211, 211, 0.3);
+    height: fit-content;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.settings_container h3 {
+    color: black;
+    font-weight: bold;
+}
+
+input {
+    width: 80%;
+    outline: none;
+    height: 18px;
+}
+
+.message {
+    color: gray;
+    font-weight: lighter;
+    font-size: small;
+}
+
+.input {
+    margin-top: 3%;
+}
+
+.topMargin {
+    margin-top: 3%;
+}
+
+.save {
+    float: right;
+    margin: 1%;
+    font-weight: bolder;
+    text-decoration: none;
+    color: #161F6D;
+}
