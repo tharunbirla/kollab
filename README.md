@@ -9,22 +9,32 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 This is an app to connect a musician with other musicians and professionals worldwide for collaborations.
 
+![main-screen](/img/main-screen.PNG)
+![settings](/img/settings-screen.PNG)
+![chat-screen](/img/chat-screen.PNG)
+![individual-chat-screen](/img/individual-chat-screen.PNG)
 
-## How to use
+## How to use up to contribute to the project
 
-Download the source code for the application
+1. Fork the this repository. 🍴
 
-### `git clone` 
+2. Download the source code for the application ⬇️
 
-In the project directory, you can run:
+### `git clone {URL of you forked repo}` 
+
+3. In the project directory 📁, you can run: 
 
 ### `yarn start`
 
-Runs the app in the development mode.\
+It runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
+
+4. Open the folder in a text editor and make changes to the code. ✏️
+
+5. Pull Request and Waiting to merge 😎
 
 ## Dependencies used
 
