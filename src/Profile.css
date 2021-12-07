@@ -46,3 +46,11 @@ input {
     text-decoration: none;
     color: #161F6D;
 }
+
+.logout {
+    float: left;
+    margin: 1%;
+    font-weight: bolder;
+    text-decoration: none;
+    color: #161F6D;
+}
