@@ -11,6 +11,11 @@
     flex: 1;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
 .avatar {
     vertical-align: middle;
     width: 50px;

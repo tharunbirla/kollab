@@ -37,7 +37,7 @@ You will also see any lint errors in the console.
 
 - [ ] To add login page
 - [ ] To add music player in cards
-- [ ] To add individual chat screen
+- [x] To add individual chat screen
 - [x] To add profile screen
 - [x] To add cards screen
 - [x] To add chat screen 

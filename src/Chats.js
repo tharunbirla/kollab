@@ -5,22 +5,16 @@ function Chats() {
     return (
         <div className="chat_screen">
             <Chat
-            name="Mark"
-            message="Yo! hello"
-            timestamp="35 minutes ago"
-            profilePic="http://www.random-art.org/img/large/373584.jpg"
+                name="Alisha"
+                message="replied: Thanks 😊"
+                timestamp="35 minutes ago"
+                profilePic=""
             />
             <Chat
-            name="Mark"
-            message="Yo! hello"
-            timestamp="35 minutes ago"
-            profilePic="http://www.random-art.org/img/large/373583.jpg"
-            />
-            <Chat
-            name="Mark"
-            message="Yo! hello"
-            timestamp="35 minutes ago"
-            profilePic="http://www.random-art.org/img/large/373582.jpg"
+                name="Erick"
+                message="replied: Thanks 😊"
+                timestamp="35 minutes ago"
+                profilePic="https://i.imgur.com/9hMohYO.jpg"
             />
         </div>
     )
