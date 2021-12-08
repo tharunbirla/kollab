@@ -3,7 +3,7 @@ import AdminPanelSettingsIcon from '@mui/icons-material/AdminPanelSettings';
 import ForumIcon from '@mui/icons-material/Forum';
 import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
 import { Link, useHistory } from 'react-router-dom'
-import './Header.css'
+import '../assets/Header.css'
 
 function Header({ buttonBack, profileBack }) {
     const history = useHistory();

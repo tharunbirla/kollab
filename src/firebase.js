@@ -5,6 +5,7 @@ import 'dotenv'
 
 // firebaseConfig here
 
+
 const firebaseApp = firebase.initializeApp(firebaseConfig);
 const database = firebaseApp.firestore();
 

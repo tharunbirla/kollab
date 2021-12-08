@@ -1,10 +1,10 @@
 import './App.css';
-import Header from './Header';
-import Cards from './Cards'
-import Chats from './Chats'
-import Profile from './Profile'
-import SwipeButtons from './SwipeButtons';
-import ChatScreen from './ChatScreen';
+import Header from './Components/Header';
+import Cards from './Components/Cards'
+import Chats from './Components/Chats'
+import Profile from './Components/Profile'
+import SwipeButtons from './Components/SwipeButtons';
+import ChatScreen from './Components/ChatScreen';
 import React from "react";
 import {
   BrowserRouter as Router,

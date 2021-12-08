@@ -5,8 +5,8 @@ import AccordionSummary from '@mui/material/AccordionSummary';
 import Typography from '@mui/material/Typography';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import TextField from '@mui/material/TextField';
-import './Profile.css'
-import app from './firebase'
+import '../assets/Profile.css'
+import app from '../firebase'
 
 function Profile() {
     const [expanded, setExpanded] = React.useState(false);

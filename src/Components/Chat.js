@@ -1,7 +1,7 @@
 import React from 'react'
 import Avatar from '@mui/material/Avatar';
 import { Link } from 'react-router-dom'
-import './Chat.css'
+import '../assets/Chat.css'
 
 function Chat({ name, message, profilePic, timestamp }) {
     return (

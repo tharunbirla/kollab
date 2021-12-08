@@ -1,5 +1,5 @@
 import React from 'react'
-import './SwipeButtons.css'
+import '../assets/SwipeButtons.css'
 // Icons
 import CloseIcon from '@mui/icons-material/Close';
 import ThumbDownIcon from '@mui/icons-material/ThumbDown';
